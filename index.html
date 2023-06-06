@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" type="text/css" rel="stylesheet" />
+    <title>Document</title>
+</head>
+<body>
+    <nav class="header">
+        <ul>
+            <li><a href="#section-1">HOME</a></li>
+            <li><a href="#">MENU</a></li>
+        </ul>
+        <div class="logo">
+            <p>VLAD'S</p>
+            <span>Cafe</span>
+        </div>
+        <ul>
+            <li><a href="#">GALLERY</a></li>
+            <li><a href="#">CONTACT</a></li>
+        </ul>
+    </nav>
+
+    <section class="section-1" id="section-1">
+        <div class="logo">
+            <p>VLAD'S</p>
+            <span>Cafe</span>
+        </div>
+        <div class="btn-wrapper">
+            <button class="btn"><a href="#section-5">OUR MENU</a></button>
+        </div>
+    </section>
+
+    <section class="section-2">
+        <img src="./images/section_2_item_1_ftr.jpg" />
+        <img src="./images/section_2_item_2_ftr.jpg" />
+        <img src="./images/section_2_item_3_ftr.jpg" />
+    </section>
+
+    <section class="section-3">
+        <h1>THE TASTE OF<br />VACATION</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos fuga reiciendis voluptate tenetur molestias necessitatibus maiores. Assumenda laborum aut beatae facilis accusantium corrupti reiciendis fugit qui iure hic, nobis molestias maxime, possimus unde suscipit nesciunt et. Placeat, nam! In perspiciatis atque dolorum! Ut molestiae nesciunt odit deleniti sed voluptas recusandae accusamus error illo ex vel esse porro vitae, harum alias saepe mollitia? Iusto, aliquam aliquid vitae enim corporis qui natus. Sunt dolorum commodi itaque doloremque!</p>
+    </section>    
+
+    <section class="section-4" id="section-4">
+        <div class="img-wrapper">
+            <div class="logo">
+                <p>VLAD'S</p>
+                <span>Cafe</span>
+            </div>      
+        </div>
+        <div class="txt-wrapper withBg">
+            <h2>CHECK OUT THE<br /><span>MENU</span></h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit!</p>
+        </div>
+    </section>
+    <section class="section-5" id="section-5">
+        <div class="menu-wrapper">
+            <div class="menu-col" id="menu-col-1"></div>
+            <div class="menu-col" id="menu-col-2"> 
+        </div>
+    </section>
+    <section class="section-6">
+       <div class="card-wrapper">
+            <div class="our-card">
+                <p>VLAD'S</p>
+                <span>Cafe</span>
+            </div>
+       </div>
+       <div class="form-wrapper">
+            <p class="form-title">GIFT CARD SUBSCRIPTION</p>
+            <p class="form-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis sed quas officia impedit adipisci reprehenderit ab id qui recusandae beatae accusantium, commodi, expedita explicabo nisi dolorem ipsum neque laboriosam nam accusamus. Excepturi facere, molestias maxime, dignissimos doloremque facilis voluptates quia debitis suscipit accusantium exercitationem ullam, laudantium soluta optio iusto et. Harum quod eveniet porro ducimus architecto in neque a? Quidem nemo, nostrum esse iste tempore illo cum debitis? Totam libero reiciendis eius reprehenderit quaerat cum, dolorum dolores. Eveniet, voluptate dicta adipisicing elit!</p>
+            <form class="gift-card-form" id="gift-card-form">
+                <div class="input-wrapper">
+                    <label>TYPE</label>
+                    <select id="gift-card-type" name="gift-type">
+                        <option value="30">NIS30</option>
+                        <option value="50">NIS50</option>
+                        <option value="75">NIS75</option>
+                        <option value="100">NIS100</option>
+                    </select>
+                </div>
+               <div class="input-group-wrapper">
+                    <div class="input-group-item">
+                        <label>QUANTITY</label>
+                        <input type="number" value="1" id="gift-card-amount" name="gift-quantity" min="1" />
+                    </div>
+                    <div class="input-group-item">
+                        <button class="gift-card-btn" type="submit">BUY NOW</button>
+                    </div>
+               </div>
+               <div class="gift-sum-wrapper">
+                    <span id="gift-sum">NIS 0</span>
+                </div>
+            </form>
+        </div>
+    </section>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>

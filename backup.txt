@@ -1,0 +1,44 @@
+const menu = {
+    'BREAKFAST': [
+        {
+            title: "Big Biscuit + Gravy",
+            description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque suscipit impedit quidem deleniti modi aliquid.",
+            price: 24
+        },
+        {
+            title: "Big Biscuit + Gravy",
+            description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque suscipit impedit quidem deleniti modi aliquid.",
+            price: 24
+        },
+        {
+            title: "Big Biscuit + Gravy",
+            description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque suscipit impedit quidem deleniti modi aliquid.",
+            price: 24
+        },
+        {
+            title: "Big Biscuit + Gravy",
+            description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque suscipit impedit quidem deleniti modi aliquid.",
+            price: 24
+        },
+    ],
+    'BURGERS': [
+        { 
+            title: 'Reuben', 
+            description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque suscipit impedit quidem deleniti modi aliquid.",
+            price: 17,
+        
+        },
+        { 
+            title: 'Reuben', 
+            description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque suscipit impedit quidem deleniti modi aliquid.",
+            price: 17,
+        
+        },
+        { 
+            title: 'Reuben', 
+            description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque suscipit impedit quidem deleniti modi aliquid.",
+            price: 17,
+        
+        }
+    ]
+}
